@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16026 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'es' Physical Memory: 32471 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,7 +11,7 @@ C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/ProyectoVSR/VSR2/VSR
+C:/VSR2/VSR
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
@@ -63,14 +63,14 @@ Refreshing native plugins compatible for Editor in 78.18 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 1.47 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/ProyectoVSR/VSR2/VSR/Assets
+[Subsystems] Discovering subsystems at path C:/VSR2/VSR/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
-    Vendor:   Intel
-    VRAM:     8013 MB
-    Driver:   27.20.100.9664
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
+    Vendor:   NVIDIA
+    VRAM:     7971 MB
+    Driver:   31.0.15.3598
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
@@ -86,16 +86,8 @@ Registered in 0.028700 seconds.
 - Loaded All Assemblies, in  1.264 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-CommandWithNoStdoutInvokationFailure: Unable to start ADB server. Please make sure the Android SDK is installed and is properly configured in the Editor. See the Console for more details.
-  at UnityEditor.Android.Command.RunWithShellExecute (System.String command, System.String args, System.String workingdir, System.String errorMsg) [0x00060] in <eb865e8041b4430e8b16e0e96097bf17>:0 
-  at UnityEditor.Android.ADB.StartServer () [0x00013] in <eb865e8041b4430e8b16e0e96097bf17>:0 
-  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000b] in <eb865e8041b4430e8b16e0e96097bf17>:0 
-  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x00284] in <eb865e8041b4430e8b16e0e96097bf17>:0 
-  at UnityEditor.Android.TargetScanWorker.ScanSync () [0x00039] in <eb865e8041b4430e8b16e0e96097bf17>:0 
-  at UnityEditor.Android.TargetExtension.OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[] usbDevices) [0x00081] in <eb865e8041b4430e8b16e0e96097bf17>:0 
-  at UnityEditor.Android.TargetExtension.OnLoad () [0x000ad] in <eb865e8041b4430e8b16e0e96097bf17>:0 
-  at UnityEditor.Modules.ModuleManager.InitializePlatformSupportModules () [0x0009d] in <fe7039efe678478d9c83e73bc6a6566d>:0 
-
+Android Extension - Scanning For ADB Devices 243 ms
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  5.234 seconds
 Domain Reload Profiling: 5700ms
@@ -169,6 +161,17 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+PXRLog [Build Check]RegisterBuildPlayerHandler,Already Do not show: False
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.XR.PXR.Editor.PXR_SDKBuildCheck:.cctor () (at C:/Users/Adrià/Documents/DAM2/M13/PICO Unity Integration SDK 240/Editor/PXR_SDKBuildCheck.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: C:/Users/Adrià/Documents/DAM2/M13/PICO Unity Integration SDK 240/Editor/PXR_SDKBuildCheck.cs Line: 30)
+
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:282 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:267 
@@ -232,15 +235,15 @@ Domain Reload Profiling: 5293ms
 		SetupLoadedEditorAssemblies (1020ms)
 		SetupLoadedEditorAssemblies (1971ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (50ms)
+			InitializePlatformSupportModulesInManaged (20ms)
 			SetLoadedEditorAssemblies (5ms)
 			InitializePlatformSupportModulesInManaged (232ms)
 			SetLoadedEditorAssemblies (26ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (132ms)
-			ProcessInitializeOnLoadAttributes (664ms)
-			ProcessInitializeOnLoadMethodAttributes (157ms)
-			AfterProcessingInitializeOnLoad (12ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (312ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 			BeforeProcessingInitializeOnLoad (292ms)
 			ProcessInitializeOnLoadAttributes (1204ms)
@@ -248,7 +251,7 @@ Domain Reload Profiling: 5293ms
 			AfterProcessingInitializeOnLoad (15ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Refreshing native plugins compatible for Editor in 11.74 ms, found 12 plugins.
 Preloading 1 native plugins for Editor in 0.09 ms.
@@ -1066,7 +1069,70 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4743.950136 seconds.
+  path: Assets/Ventuar/RPGWeaponsPack - DEMO/Prefabs/Metal Broadsword.prefab
+  artifactKey: Guid(d6a4943b7e0952e40b09515032ee2e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/RPGWeaponsPack - DEMO/Prefabs/Metal Broadsword.prefab using Guid(d6a4943b7e0952e40b09515032ee2e2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff3e07fe647177906f9324d6b073f5f') in 0.137218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/sword-of-artorias/source/sword.OBJ.obj
+  artifactKey: Guid(5b34bab0cdcbf65478a977643add2e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sword-of-artorias/source/sword.OBJ.obj using Guid(5b34bab0cdcbf65478a977643add2e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5439d5dca8768ddd613d8e2ef6bcb90a') in 0.363250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/1-Low-Poly Medieval Market/Models/swordfish.fbx
+  artifactKey: Guid(216af29fb8329d948aacd9ef677bee72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1-Low-Poly Medieval Market/Models/swordfish.fbx using Guid(216af29fb8329d948aacd9ef677bee72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95917197844425689bcff0d5071470d') in 0.037248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/1-Low-Poly Medieval Market/Prefabs/Weapons/two_handed_sword.prefab
+  artifactKey: Guid(18316d8df39495b44ab8d0fcea434874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1-Low-Poly Medieval Market/Prefabs/Weapons/two_handed_sword.prefab using Guid(18316d8df39495b44ab8d0fcea434874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6dc4aac10e8f3676e8a03e147b082d0') in 0.168970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets/Models/MetalSword.fbx
+  artifactKey: Guid(0f88d9f6b3ab59549b9ca29527095481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets/Models/MetalSword.fbx using Guid(0f88d9f6b3ab59549b9ca29527095481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b344112c823f2f731b1828ad8dd5c2') in 0.038549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/PurePoly/Free Fantasy RPG Weapons/Meshes/PP_Theme_06_Sword_Two-Handed_001.fbx
+  artifactKey: Guid(e5d1bfca5fbaea04fa93b6bf98558068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PurePoly/Free Fantasy RPG Weapons/Meshes/PP_Theme_06_Sword_Two-Handed_001.fbx using Guid(e5d1bfca5fbaea04fa93b6bf98558068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf97cfe36874680092087303e674025') in 0.051927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/1-Low-Poly Medieval Market/Prefabs/Weapons/short_sword.prefab
+  artifactKey: Guid(999f1c6fc24d87c459f66a5e2b19e6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1-Low-Poly Medieval Market/Prefabs/Weapons/short_sword.prefab using Guid(999f1c6fc24d87c459f66a5e2b19e6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d77a54c44725adf93cbf22f284b8a2') in 0.064969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
