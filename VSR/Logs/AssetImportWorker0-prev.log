@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16026 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'es' Physical Memory: 32471 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/ProyectoVSR/VSR2/VSR
+C:/VSR2/VSR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50586
-Successfully changed project path to: C:/ProyectoVSR/VSR2/VSR
-C:/ProyectoVSR/VSR2/VSR
+61736
+Successfully changed project path to: C:/VSR2/VSR
+C:/VSR2/VSR
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,70 +49,70 @@ C:/ProyectoVSR/VSR2/VSR
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7116] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1485713795 [EditorId] 1485713795 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-Q0S91L1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [26672] Host "[IP] 192.168.19.1 [Port] 0 [Flags] 2 [Guid] 1777207469 [EditorId] 1777207469 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1OO6M8L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7116] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1485713795 [EditorId] 1485713795 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-Q0S91L1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26672] Host "[IP] 192.168.19.1 [Port] 0 [Flags] 2 [Guid] 1777207469 [EditorId] 1777207469 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-1OO6M8L) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 30.95 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.51 ms.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 26.29 ms, found 22 plugins.
+Preloading 3 native plugins for Editor in 2.87 ms.
 Initialize engine version: 2022.3.10f1 (ff3792e53c62)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/ProyectoVSR/VSR2/VSR/Assets
+[Subsystems] Discovering subsystems at path C:/VSR2/VSR/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
-    Vendor:   Intel
-    VRAM:     8013 MB
-    Driver:   27.20.100.9664
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
+    Vendor:   NVIDIA
+    VRAM:     7971 MB
+    Driver:   31.0.15.3598
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014004 seconds.
-- Loaded All Assemblies, in  0.479 seconds
+Registered in 0.005466 seconds.
+- Loaded All Assemblies, in  0.266 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 2221 ms
+Android Extension - Scanning For ADB Devices 249 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.635 seconds
-Domain Reload Profiling: 3112ms
-	BeginReloadAssembly (139ms)
+- Finished resetting the current domain, in  0.509 seconds
+Domain Reload Profiling: 774ms
+	BeginReloadAssembly (79ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (79ms)
-	LoadAllAssembliesAndSetupDomain (203ms)
-		LoadAssemblies (137ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (110ms)
+		LoadAssemblies (78ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (201ms)
-			TypeCache.Refresh (199ms)
-				TypeCache.ScanAssembly (183ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (2635ms)
+		AnalyzeDomain (108ms)
+			TypeCache.Refresh (107ms)
+				TypeCache.ScanAssembly (97ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (509ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2555ms)
+		SetupLoadedEditorAssemblies (464ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2377ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (346ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (108ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (75ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,8 +120,8 @@ Domain Reload Profiling: 3112ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.009 seconds
-Refreshing native plugins compatible for Editor in 17.95 ms, found 12 plugins.
+- Loaded All Assemblies, in  0.660 seconds
+Refreshing native plugins compatible for Editor in 17.00 ms, found 22 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -132,6 +132,17 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+PXRLog [Build Check]RegisterBuildPlayerHandler,Already Do not show: False
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.XR.PXR.Editor.PXR_SDKBuildCheck:.cctor () (at C:/Users/AdriÃ /Documents/DAM2/M13/PICO Unity Integration SDK 240/Editor/PXR_SDKBuildCheck.cs:30)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: C:/Users/AdriÃ /Documents/DAM2/M13/PICO Unity Integration SDK 240/Editor/PXR_SDKBuildCheck.cs Line: 30)
+
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:282 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:267 
@@ -154,47 +165,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.629 seconds
-Domain Reload Profiling: 2636ms
-	BeginReloadAssembly (212ms)
+- Finished resetting the current domain, in  0.664 seconds
+Domain Reload Profiling: 1322ms
+	BeginReloadAssembly (107ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (707ms)
-		LoadAssemblies (390ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (482ms)
+		LoadAssemblies (297ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (429ms)
-			TypeCache.Refresh (359ms)
-				TypeCache.ScanAssembly (330ms)
-			ScanForSourceGeneratedMonoScriptInfo (50ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (1630ms)
+		AnalyzeDomain (248ms)
+			TypeCache.Refresh (206ms)
+				TypeCache.ScanAssembly (187ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (665ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1320ms)
+		SetupLoadedEditorAssemblies (504ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (37ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (144ms)
-			ProcessInitializeOnLoadAttributes (979ms)
-			ProcessInitializeOnLoadMethodAttributes (143ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (1ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (308ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 22.66 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.14 ms.
-Unloading 6820 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 116 unused Assets / (371.2 KB). Loaded Objects now: 7308.
-Memory consumption went from 250.2 MB to 249.8 MB.
-Total: 6.696500 ms (FindLiveObjects: 1.062000 ms CreateObjectMapping: 0.357300 ms MarkObjects: 4.701900 ms  DeleteObjects: 0.573800 ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 18.44 ms, found 22 plugins.
+Preloading 3 native plugins for Editor in 0.15 ms.
+Unloading 7020 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 142 unused Assets / (424.5 KB). Loaded Objects now: 7481.
+Memory consumption went from 259.0 MB to 258.6 MB.
+Total: 5.016600 ms (FindLiveObjects: 0.464700 ms CreateObjectMapping: 0.406800 ms MarkObjects: 3.781900 ms  DeleteObjects: 0.361800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -205,7 +216,559 @@ AssetImportParameters requested are different than current active one (requested
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 441273.879256 seconds.
+  path: Assets/2-Polylised - Medieval Desert City/Documentation.pdf
+  artifactKey: Guid(594c93a0ee76f0048a3913dc202f68a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2-Polylised - Medieval Desert City/Documentation.pdf using Guid(594c93a0ee76f0048a3913dc202f68a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20ab4ce63c0ef2a2ecbc29e43c29031') in 0.025321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 136.208445 seconds.
+  path: Assets/PurePoly/Free Fantasy RPG Weapons
+  artifactKey: Guid(ce5b2d80c2bac0948aa979a6f4d3b117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PurePoly/Free Fantasy RPG Weapons using Guid(ce5b2d80c2bac0948aa979a6f4d3b117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5e6d35dd65ff5033b63dbcf08b0614') in 0.000586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.184376 seconds.
+  path: Assets/PurePoly/Free Fantasy RPG Weapons/Prefabs
+  artifactKey: Guid(c089f032cfa3094448fa783f2ca1abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PurePoly/Free Fantasy RPG Weapons/Prefabs using Guid(c089f032cfa3094448fa783f2ca1abd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0461ee63397b58e2477848d96dfc92') in 0.001717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.049863 seconds.
+  path: Assets/PurePoly/Free Fantasy RPG Weapons/Prefabs/PP_Theme_01_Axe_Two_Handed_002.prefab
+  artifactKey: Guid(a250c778e48c73742ae531b8c9a9bd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PurePoly/Free Fantasy RPG Weapons/Prefabs/PP_Theme_01_Axe_Two_Handed_002.prefab using Guid(a250c778e48c73742ae531b8c9a9bd17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8b6d292523ab6d53f346d2c5733bd24') in 0.211938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PurePoly/Free Fantasy RPG Weapons/Prefabs/PP_Theme_06_Sword_Two-Handed_001.prefab
+  artifactKey: Guid(fa7576413fbf339459d948aa3d3ebbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PurePoly/Free Fantasy RPG Weapons/Prefabs/PP_Theme_06_Sword_Two-Handed_001.prefab using Guid(fa7576413fbf339459d948aa3d3ebbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953f5ca196b5fefd305ff181e1e02569') in 0.016322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PurePoly/Free Fantasy RPG Weapons/Prefabs/PP_Theme_09_Horn_003.prefab
+  artifactKey: Guid(3441d49fa3ca7744a95e9dfd2aba3f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PurePoly/Free Fantasy RPG Weapons/Prefabs/PP_Theme_09_Horn_003.prefab using Guid(3441d49fa3ca7744a95e9dfd2aba3f54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1a5cd2a63cf8b3bb93ce794d59a1cb') in 0.012989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PurePoly/Free Fantasy RPG Weapons/Prefabs/PP_Theme_10_Dagger_002.prefab
+  artifactKey: Guid(87b744073f89d274ea9986018a77d4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PurePoly/Free Fantasy RPG Weapons/Prefabs/PP_Theme_10_Dagger_002.prefab using Guid(87b744073f89d274ea9986018a77d4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8bf927c5060634e495ae3014e9e9910') in 0.016599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PurePoly/Free Fantasy RPG Weapons/Prefabs/PP_Theme_07_Scepter_001.prefab
+  artifactKey: Guid(cff5dffe00fae3646b02cf6f01cb6514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PurePoly/Free Fantasy RPG Weapons/Prefabs/PP_Theme_07_Scepter_001.prefab using Guid(cff5dffe00fae3646b02cf6f01cb6514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f3ad7c046d25d9a93a42743b8883c1') in 0.006906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PurePoly/Free Fantasy RPG Weapons/Prefabs/PP_Theme_04_Spellbook_003.prefab
+  artifactKey: Guid(0c90db8fea3862442b559c97aca37ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PurePoly/Free Fantasy RPG Weapons/Prefabs/PP_Theme_04_Spellbook_003.prefab using Guid(0c90db8fea3862442b559c97aca37ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6527263bcd669425ddc339291d96dbe4') in 0.010511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PurePoly/Free Fantasy RPG Weapons/Prefabs/PP_Theme_04_Scythe_001.prefab
+  artifactKey: Guid(bc956f77213138048b30d54ab626e70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PurePoly/Free Fantasy RPG Weapons/Prefabs/PP_Theme_04_Scythe_001.prefab using Guid(bc956f77213138048b30d54ab626e70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e884fa33991b3f3238326794b88bf8') in 0.011297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 11.624392 seconds.
+  path: Assets/2-Polylised - Medieval Desert City/Prefabs/prefab_terrain/cliff_02.prefab
+  artifactKey: Guid(41a670177e1723444b5622302f81dd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2-Polylised - Medieval Desert City/Prefabs/prefab_terrain/cliff_02.prefab using Guid(41a670177e1723444b5622302f81dd16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937b394b1d10416012fdbc26a900bef8') in 0.015977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2-Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_01.prefab
+  artifactKey: Guid(2342cad3b7a469e438b886d28b6d9f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2-Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_01.prefab using Guid(2342cad3b7a469e438b886d28b6d9f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe2307ea6606068525a6055a87a913f') in 0.011892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2-Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_06.prefab
+  artifactKey: Guid(e0bdb26ae5b35e247aa29e160391211b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2-Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_06.prefab using Guid(e0bdb26ae5b35e247aa29e160391211b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710cd8efd7c973c48c778e54e00e7e85') in 0.011599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2-Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_city_inner.prefab
+  artifactKey: Guid(36888e805d00a0b4b82757e3692ede9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2-Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_city_inner.prefab using Guid(36888e805d00a0b4b82757e3692ede9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0653f6282dc21e0d73ad5e78acdc67f') in 0.011006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2-Polylised - Medieval Desert City/Prefabs/prefab_terrain/sky.prefab
+  artifactKey: Guid(fc723164fcb3394489548dfd87d02024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2-Polylised - Medieval Desert City/Prefabs/prefab_terrain/sky.prefab using Guid(fc723164fcb3394489548dfd87d02024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705d9c06b069e31c3215da62551fa651') in 0.029028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/2-Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_standard.prefab
+  artifactKey: Guid(429b354257073ae40ad51c100a60a6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2-Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_standard.prefab using Guid(429b354257073ae40ad51c100a60a6be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '193ecb8362083a4e767303c03d20d7cf') in 0.008683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2-Polylised - Medieval Desert City/Prefabs/prefab_terrain/cliff_05.prefab
+  artifactKey: Guid(193b5b75d0e6d874a87f6fdfa58d121d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2-Polylised - Medieval Desert City/Prefabs/prefab_terrain/cliff_05.prefab using Guid(193b5b75d0e6d874a87f6fdfa58d121d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996aabe57038f3ab96506f7313fb501a') in 0.010343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/2-Polylised - Medieval Desert City/Prefabs/prefab_terrain/cliff_06.prefab
+  artifactKey: Guid(2a7be97057e016840ac411d94757feb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2-Polylised - Medieval Desert City/Prefabs/prefab_terrain/cliff_06.prefab using Guid(2a7be97057e016840ac411d94757feb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8597b8065dbf077febaace402078d348') in 0.008990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/2-Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_07.prefab
+  artifactKey: Guid(dee1f1bc8c892874aac53e339eb2157c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2-Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_07.prefab using Guid(dee1f1bc8c892874aac53e339eb2157c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ede44849eb4338ff7feb4438b0a4d1') in 0.009956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2-Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_05.prefab
+  artifactKey: Guid(26d164a32bdfbdd4994ed8c78b1aed29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2-Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_05.prefab using Guid(26d164a32bdfbdd4994ed8c78b1aed29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef53d1497773215bbcd15c065750dc40') in 0.009123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/2-Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_10.prefab
+  artifactKey: Guid(da6278f84675c054fa2ff4da9555db84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2-Polylised - Medieval Desert City/Prefabs/prefab_terrain/terrain_10.prefab using Guid(da6278f84675c054fa2ff4da9555db84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3ce4a9c7bffeec10145b63ae3e0dda') in 0.009189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 50.827035 seconds.
+  path: Assets/Scenes/SampleScene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(1b208c9c64896bb41804f87a20a84fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/Lightmap-0_comp_dir.png using Guid(1b208c9c64896bb41804f87a20a84fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2270c6ab77ed98d0a3c2208c9ed57c4a') in 0.028913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/SampleScene/ReflectionProbe-1.exr
+  artifactKey: Guid(fe92f018ab9184b43b46c80b2a02e522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/ReflectionProbe-1.exr using Guid(fe92f018ab9184b43b46c80b2a02e522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de3e9bea563f3e93c5bf5a69da02209') in 0.025110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 18.64 ms, found 22 plugins.
+Preloading 3 native plugins for Editor in 0.14 ms.
+Unloading 49 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (346.7 KB). Loaded Objects now: 7621.
+Memory consumption went from 127.1 MB to 126.7 MB.
+Total: 5.882400 ms (FindLiveObjects: 0.471500 ms CreateObjectMapping: 0.356200 ms MarkObjects: 4.964100 ms  DeleteObjects: 0.089200 ms)
+
+Prepare: number of updated asset objects reloaded= 51
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Switching render pipeline cf6a652e94858004a93399f0a3dac507 -> fd42a132493b1f143a4963adcd530ef1
+Refreshing native plugins compatible for Editor in 19.03 ms, found 22 plugins.
+Preloading 3 native plugins for Editor in 0.15 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (329.2 KB). Loaded Objects now: 7621.
+Memory consumption went from 123.5 MB to 123.2 MB.
+Total: 6.431500 ms (FindLiveObjects: 0.498900 ms CreateObjectMapping: 0.365500 ms MarkObjects: 5.480100 ms  DeleteObjects: 0.085600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:srp/default-pipeline: df241a2394b3f141a39436dadc35e01f -> fca656e2495808409a33990f3aad5c70
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 18.00 ms, found 22 plugins.
+Preloading 3 native plugins for Editor in 0.18 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (329.2 KB). Loaded Objects now: 7621.
+Memory consumption went from 123.5 MB to 123.2 MB.
+Total: 5.692800 ms (FindLiveObjects: 0.475900 ms CreateObjectMapping: 0.342200 ms MarkObjects: 4.786400 ms  DeleteObjects: 0.086600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 19.50 ms, found 22 plugins.
+Preloading 3 native plugins for Editor in 0.11 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (329.2 KB). Loaded Objects now: 7621.
+Memory consumption went from 123.5 MB to 123.2 MB.
+Total: 5.139800 ms (FindLiveObjects: 0.425500 ms CreateObjectMapping: 0.264100 ms MarkObjects: 4.381700 ms  DeleteObjects: 0.067200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1479.835534 seconds.
+  path: Assets/Prefabs/PP_Theme_10_Dagger_002.prefab
+  artifactKey: Guid(6cfce6b0b00bf07428a695dc01c8bae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PP_Theme_10_Dagger_002.prefab using Guid(6cfce6b0b00bf07428a695dc01c8bae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3efbb75fe84e3955a67a28e6e54b9310') in 0.051229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 2.123790 seconds.
+  path: Assets/Prefabs/PP_Theme_10_Dagger_002.prefab
+  artifactKey: Guid(6cfce6b0b00bf07428a695dc01c8bae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PP_Theme_10_Dagger_002.prefab using Guid(6cfce6b0b00bf07428a695dc01c8bae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b1d11dddf2afbcacae8dec715df965') in 0.011761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 18.00 ms, found 22 plugins.
+Preloading 3 native plugins for Editor in 0.15 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (329.2 KB). Loaded Objects now: 7621.
+Memory consumption went from 123.8 MB to 123.5 MB.
+Total: 6.301600 ms (FindLiveObjects: 0.496400 ms CreateObjectMapping: 0.410800 ms MarkObjects: 5.303900 ms  DeleteObjects: 0.089100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 367.602220 seconds.
+  path: Assets/Prefabs/PP_Theme_01_Shield_005.prefab
+  artifactKey: Guid(f5509d8d96ee3b54090a554676011345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PP_Theme_01_Shield_005.prefab using Guid(f5509d8d96ee3b54090a554676011345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a09cc11e912a551aa3bf88e384f4835f') in 0.021463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 92.393244 seconds.
+  path: Assets/Prefabs/PP_Theme_01_Shield_005.prefab
+  artifactKey: Guid(f5509d8d96ee3b54090a554676011345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PP_Theme_01_Shield_005.prefab using Guid(f5509d8d96ee3b54090a554676011345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2db98c9abe05431b96aad5865cdbd2') in 0.012265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 1.982055 seconds.
+  path: Assets/Prefabs/PP_Theme_01_Shield_005.prefab
+  artifactKey: Guid(f5509d8d96ee3b54090a554676011345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PP_Theme_01_Shield_005.prefab using Guid(f5509d8d96ee3b54090a554676011345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba32b81683ea9c7d57e535a34b65759') in 0.015658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 1.389830 seconds.
+  path: Assets/Prefabs/PP_Theme_01_Shield_005.prefab
+  artifactKey: Guid(f5509d8d96ee3b54090a554676011345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PP_Theme_01_Shield_005.prefab using Guid(f5509d8d96ee3b54090a554676011345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5475d8ae7f6aa3bfe45d01b5b6cb7346') in 0.015151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 1.593672 seconds.
+  path: Assets/Prefabs/PP_Theme_01_Shield_005.prefab
+  artifactKey: Guid(f5509d8d96ee3b54090a554676011345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PP_Theme_01_Shield_005.prefab using Guid(f5509d8d96ee3b54090a554676011345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf1747f424f66389be2472f28c808f4') in 0.015895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 9.449727 seconds.
+  path: Assets/Prefabs/PP_Theme_01_Shield_005.prefab
+  artifactKey: Guid(f5509d8d96ee3b54090a554676011345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PP_Theme_01_Shield_005.prefab using Guid(f5509d8d96ee3b54090a554676011345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b3ec4801d05003595ae02cc53e517a3') in 0.015892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 1.186991 seconds.
+  path: Assets/Prefabs/PP_Theme_01_Shield_005.prefab
+  artifactKey: Guid(f5509d8d96ee3b54090a554676011345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PP_Theme_01_Shield_005.prefab using Guid(f5509d8d96ee3b54090a554676011345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a534314240e041a8fe4a2c1d2e366f80') in 0.017151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 22.00 ms, found 22 plugins.
+Preloading 3 native plugins for Editor in 0.19 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (329.1 KB). Loaded Objects now: 7621.
+Memory consumption went from 123.9 MB to 123.6 MB.
+Total: 6.646600 ms (FindLiveObjects: 0.455000 ms CreateObjectMapping: 0.339400 ms MarkObjects: 5.751200 ms  DeleteObjects: 0.099500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 143.816574 seconds.
+  path: Assets/Prefabs/PP_Theme_01_Shield_005.prefab
+  artifactKey: Guid(f5509d8d96ee3b54090a554676011345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PP_Theme_01_Shield_005.prefab using Guid(f5509d8d96ee3b54090a554676011345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4205db95ab579c1eea1739244a3cb2b') in 0.026400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 18.74 ms, found 22 plugins.
+Preloading 3 native plugins for Editor in 0.14 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (329.3 KB). Loaded Objects now: 7621.
+Memory consumption went from 123.8 MB to 123.5 MB.
+Total: 6.010400 ms (FindLiveObjects: 0.447200 ms CreateObjectMapping: 0.438000 ms MarkObjects: 5.030500 ms  DeleteObjects: 0.093600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 18.53 ms, found 22 plugins.
+Preloading 3 native plugins for Editor in 0.14 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (329.3 KB). Loaded Objects now: 7621.
+Memory consumption went from 123.8 MB to 123.5 MB.
+Total: 6.281900 ms (FindLiveObjects: 0.471700 ms CreateObjectMapping: 0.381000 ms MarkObjects: 5.329100 ms  DeleteObjects: 0.098700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 18.47 ms, found 22 plugins.
+Preloading 3 native plugins for Editor in 0.16 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (329.1 KB). Loaded Objects now: 7621.
+Memory consumption went from 123.8 MB to 123.5 MB.
+Total: 5.328500 ms (FindLiveObjects: 0.510900 ms CreateObjectMapping: 0.363000 ms MarkObjects: 4.358300 ms  DeleteObjects: 0.094600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2727.043149 seconds.
+  path: Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets/Models/MetalBroadsword.fbx
+  artifactKey: Guid(b1fe2464c22dc994ca6fd84e711e5fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/RPGWeaponsPack - DEMO/FileAssets/Models/MetalBroadsword.fbx using Guid(b1fe2464c22dc994ca6fd84e711e5fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c460ae864175c3aac4c6508720e301') in 0.251845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/1-Low-Poly Medieval Market/Prefabs/wall_swords.prefab
+  artifactKey: Guid(f9ff7942b0a38aa49b165bfbf1372e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1-Low-Poly Medieval Market/Prefabs/wall_swords.prefab using Guid(f9ff7942b0a38aa49b165bfbf1372e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0df813f02e1c28907ffaaa4d70f7df') in 0.165392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/1-Low-Poly Medieval Market/Models/FBX Weapon market/one_handed_sword.fbx
+  artifactKey: Guid(0530f663dd1e3804cb6037eb642d449e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1-Low-Poly Medieval Market/Models/FBX Weapon market/one_handed_sword.fbx using Guid(0530f663dd1e3804cb6037eb642d449e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3f9f81b9f6517521196baac4ff0b0b') in 0.045809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/1-Low-Poly Medieval Market/Models/FBX Weapon market/short_sword.fbx
+  artifactKey: Guid(50919361b0d329648bfad63c61dc4323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1-Low-Poly Medieval Market/Models/FBX Weapon market/short_sword.fbx using Guid(50919361b0d329648bfad63c61dc4323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba127506eecd8b41c417e228b6c0f539') in 0.042313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/1-Low-Poly Medieval Market/Models/FBX Weapon market/two_handed_sword.fbx
+  artifactKey: Guid(4a070bc0e4acab349aa5f22135680b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1-Low-Poly Medieval Market/Models/FBX Weapon market/two_handed_sword.fbx using Guid(4a070bc0e4acab349aa5f22135680b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6e6293155f6b91ffe2ab7cfb73c7b9') in 0.049717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/1-Low-Poly Medieval Market/Prefabs/Weapons/one_handed_sword.prefab
+  artifactKey: Guid(a262d897f717f8f4f8c816f018cf988c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1-Low-Poly Medieval Market/Prefabs/Weapons/one_handed_sword.prefab using Guid(a262d897f717f8f4f8c816f018cf988c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786f1534127d04b65df65c2d0025ef77') in 0.114944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/1-Low-Poly Medieval Market/Prefabs/swordfish.prefab
+  artifactKey: Guid(8c40448a6e292ce4aa884b48a55cfc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/1-Low-Poly Medieval Market/Prefabs/swordfish.prefab using Guid(8c40448a6e292ce4aa884b48a55cfc10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9da74818ddff5f4e8a07eda0abc5ef') in 0.131959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Ventuar/RPGWeaponsPack - DEMO/Prefabs/Metal Sword.prefab
+  artifactKey: Guid(944fc80616e7ee844bc7a8f312cd5b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ventuar/RPGWeaponsPack - DEMO/Prefabs/Metal Sword.prefab using Guid(944fc80616e7ee844bc7a8f312cd5b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a5109ec9ed5edf90636ede1607962c') in 0.024143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
