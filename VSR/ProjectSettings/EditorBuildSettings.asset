@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SalaEspera.unity
     guid: 0ceb2a83c4306564190fe6d8a8cdfae8
+  - enabled: 1
+    path: Assets/Scenes/DueloCasillo.unity
+    guid: 5ff219ac36500d14391668223920b233
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: c2fd772b0b0bd814a938d0a2e22cf98d, type: 2}

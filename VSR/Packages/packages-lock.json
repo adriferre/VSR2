@@ -324,13 +324,20 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.picoxr": {
-      "version": "file:C:/VSR2/PICO Unity Integration SDK 240",
+      "version": "file:C:/ProyectoVSR/VSR2/VSR2/PICO Unity Integration SDK 240",
       "depth": 0,
       "source": "local",
       "dependencies": {
         "com.unity.xr.management": "4.0.0",
         "com.unity.xr.interaction.toolkit": "2.0.0"
       }
+    },
+    "com.veriorpies.parrelsync": {
+      "version": "https://github.com/VeriorPies/ParrelSync.git?path=/ParrelSync",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "d1ef610e9fe3ad0b490cce91594449fc0af809a6"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
