@@ -8,6 +8,8 @@ public class GameController : MonoBehaviour
 
     public string modeServidor;
     public NetworkConnect networkManager;
+    public Transform posicionJugador1;
+    public GameObject dragonSlayer;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +20,12 @@ public class GameController : MonoBehaviour
         } else if (modeServidor.Equals("Client"))
         {
             networkManager.Join();
+        }
+
+        if (StatePartida.arma == 1)
+        {
+            print("arma2");
+            SpawnPrefab(dragonSlayer);
         }
     }
 
@@ -30,5 +38,11 @@ public class GameController : MonoBehaviour
     void GoBack()
     {
         SceneManager.LoadScene("SalaEspera");
+    }
+
+    void SpawnPrefab(GameObject prefabToSpawn)
+    {
+        // Instanciar el prefab en la posición y rotación deseada
+        Instantiate(prefabToSpawn, transform.position, Quaternion.identity);
     }
 }
