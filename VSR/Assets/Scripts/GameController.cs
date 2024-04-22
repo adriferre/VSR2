@@ -10,6 +10,7 @@ public class GameController : MonoBehaviour
     public NetworkConnect networkManager;
     public Transform posicionJugador1;
     public GameObject dragonSlayer;
+    bool victoria = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -32,7 +33,10 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (StatePartida.victoria != 0)
+        {
+            GoBack();
+        }
     }
 
     void GoBack()

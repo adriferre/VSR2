@@ -5,4 +5,5 @@ using UnityEngine;
 public class StatePartida : MonoBehaviour
 {
     public static int arma;
+    public static int victoria;
 }
