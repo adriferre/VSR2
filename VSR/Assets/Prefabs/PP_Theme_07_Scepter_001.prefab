@@ -46,7 +46,6 @@ GameObject:
   - component: {fileID: 1409534138811198524}
   - component: {fileID: 5225671238343343468}
   - component: {fileID: 1911001346623148107}
-  - component: {fileID: -4687061541321485041}
   - component: {fileID: 6724879253205341348}
   m_Layer: 0
   m_Name: PP_Theme_07_Scepter_001
@@ -167,8 +166,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.4570176, y: 1.8854086, z: 0.0954398}
-  m_Center: {x: -0.000000026287374, y: 0.25868338, z: -0.000000035035722}
+  m_Size: {x: 0.4570176, y: 1, z: 0.0954398}
+  m_Center: {x: -0.000000026287374, y: 0.7, z: -0.000000035035722}
 --- !u!114 &5225671238343343468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -333,27 +332,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4f2f658073e4974d800c553fe797db1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &-4687061541321485041
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7067310193512459810}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.45701763, y: 1.8854086, z: 0.09543959}
-  m_Center: {x: -0.00000002628737, y: 0.25868338, z: -0.00000003503572}
 --- !u!114 &6724879253205341348
 MonoBehaviour:
   m_ObjectHideFlags: 0

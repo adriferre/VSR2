@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class HealthBar : MonoBehaviour
@@ -27,8 +28,17 @@ public class HealthBar : MonoBehaviour
 
         if (slider.value <= 0)
         {
-            // Si es así, destruye el objeto del jugador
-            Destroy(player);
+            if (player.CompareTag("Player"))
+            {
+                SceneManager.LoadSceneAsync("SalaEspera");
+                StatePartida.victoria = 1;
+            }
+            else
+            {
+                // Si es así, destruye el objeto del jugador
+                Destroy(player);
+            }
+            
         }
     }
 

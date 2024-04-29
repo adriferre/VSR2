@@ -18,4 +18,17 @@ public class Daño : MonoBehaviour
             healthBar.SetHealth(damage);
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        // Verifica si el objeto con el que colisionó tiene el tag "arma"
+        if (other.gameObject.CompareTag("arma"))
+        {
+            // Aquí puedes establecer la cantidad de salud que quieres asignar al personaje
+            int damage = 35; // Por ejemplo, 100 de salud
+
+            // Llama al método SetHealth() del script HealthBar y le pasa la nueva salud
+            healthBar.SetHealth(damage);
+        }
+    }
 }

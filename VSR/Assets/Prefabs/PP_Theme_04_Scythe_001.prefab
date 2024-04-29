@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 2206757188127517836}
   - component: {fileID: 5007950067749895177}
   - component: {fileID: 5193003230860202094}
-  - component: {fileID: 2730170991840295285}
   - component: {fileID: -238906199207680823}
   m_Layer: 0
   m_Name: PP_Theme_04_Scythe_001
@@ -298,27 +297,6 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.80883706, y: 0.3, z: 0.09528965}
-  m_Center: {x: -0.30834535, y: 0.65, z: 0.0075740363}
---- !u!65 &2730170991840295285
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 265320661438930711}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3

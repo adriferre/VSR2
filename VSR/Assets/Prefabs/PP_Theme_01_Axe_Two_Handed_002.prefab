@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 8502684427281104695}
   - component: {fileID: 2718381710820061675}
   - component: {fileID: 7240929264101627186}
-  - component: {fileID: 4975246058040015629}
   - component: {fileID: 7871856593726996574}
   m_Layer: 0
   m_Name: PP_Theme_01_Axe_Two_Handed_002
@@ -302,27 +301,6 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
---- !u!65 &4975246058040015629
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1687304407797920889}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.5641021, y: 0.6, z: 0.066455156}
-  m_Center: {x: -0.064787544, y: 0.5, z: -0.00000002184249}
 --- !u!114 &7871856593726996574
 MonoBehaviour:
   m_ObjectHideFlags: 0

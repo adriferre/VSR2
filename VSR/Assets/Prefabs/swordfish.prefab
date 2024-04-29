@@ -46,7 +46,6 @@ GameObject:
   - component: {fileID: 8142429091200346671}
   - component: {fileID: 5471662033852124018}
   - component: {fileID: 4579380663434179455}
-  - component: {fileID: -1846736549154237674}
   - component: {fileID: 1740381589763458735}
   m_Layer: 0
   m_Name: swordfish
@@ -167,8 +166,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.9834949, y: 0.23631686, z: 0.3}
-  m_Center: {x: 0.17161912, y: 0.08945158, z: -0.026232913}
+  m_Size: {x: 1.45, y: 0.23631686, z: 0.3}
+  m_Center: {x: 0.35, y: 0.08945158, z: -0.026232913}
 --- !u!114 &5471662033852124018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -333,27 +332,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4f2f658073e4974d800c553fe797db1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &-1846736549154237674
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8319601439011117791}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.9834951, y: 0.23631692, z: 0.3}
-  m_Center: {x: 0.1716191, y: 0.08945153, z: -0.026232969}
 --- !u!114 &1740381589763458735
 MonoBehaviour:
   m_ObjectHideFlags: 0
