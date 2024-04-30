@@ -6,11 +6,12 @@ TagManager:
   tags:
   - escudo
   - arma
+  - Anchor
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemy
   - Water
   - UI
   - 

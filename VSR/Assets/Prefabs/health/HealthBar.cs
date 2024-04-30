@@ -28,6 +28,7 @@ public class HealthBar : MonoBehaviour
         if (slider.value <= 0)
         {
             // Si es así, destruye el objeto del jugador
+            StatePartida.victoria = 1;
             Destroy(player);
         }
     }

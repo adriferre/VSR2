@@ -7,7 +7,6 @@ public class SceneManagerScript : MonoBehaviour
 {
     public void LoadScene(string sceneName)
     {
-        
         SceneManager.LoadSceneAsync(sceneName);
     }
 
@@ -19,6 +18,7 @@ public class SceneManagerScript : MonoBehaviour
 
     public void EntrarPartida(string sceneName)
     {
+        StatePartida.arma2 = StatePartida.arma;
         StateNameController.servidor = "Client";
         SceneManager.LoadSceneAsync(sceneName);
     }
