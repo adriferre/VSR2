@@ -25,7 +25,37 @@ public class MesaArmas : MonoBehaviour
             if (other.gameObject.name.Equals("Dragon Slayer")) {
                 print("arma1");
                 StatePartida.arma = 1;
-            }    
+            } 
+            else if (other.gameObject.name.Equals("Frostmourne"))
+            {
+                print("arma1");
+                StatePartida.arma = 2;
+            }
+            else if (other.gameObject.name.Equals("Axe"))
+            {
+                print("arma1");
+                StatePartida.arma = 3;
+            }
+            else if (other.gameObject.name.Equals("Scythe"))
+            {
+                print("arma1");
+                StatePartida.arma = 4;
+            }
+            else if (other.gameObject.name.Equals("Scepter"))
+            {
+                print("arma1");
+                StatePartida.arma = 5;
+            }
+            else if (other.gameObject.name.Equals("Dagger"))
+            {
+                print("arma1");
+                StatePartida.arma = 6;
+            }
+            else if (other.gameObject.name.Equals("swordfish"))
+            {
+                print("arma1");
+                StatePartida.arma = 7;
+            }
         } else if (other.CompareTag("escudo"))
         {
 

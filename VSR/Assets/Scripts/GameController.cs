@@ -13,7 +13,7 @@ public class GameController : MonoBehaviour
     public Transform Player2Posicion;
     public NetworkConnect networkManager;
     public Transform posicionJugador1;
-    public GameObject dragonSlayer;
+    public GameObject dragonSlayer, frostmourne, axe, scythe, scepter, dagger, swordfish;
     bool victoria = false;
     // Start is called before the first frame update
     void Start()
@@ -39,14 +39,108 @@ public class GameController : MonoBehaviour
             SpawnPrefab(dragonSlayer, arma1Posicion);
             StatePartida.arma = 0;
         }
+        else if(StatePartida.arma == 2) 
+        {
+            print("frostmourne");
+            SpawnPrefab(frostmourne, arma1Posicion);
+            StatePartida.arma = 0;
+        }
+        else if (StatePartida.arma == 3)
+        {
+            print("axe");
+            SpawnPrefab(axe, arma1Posicion);
+            StatePartida.arma = 0;
+        }
+        else if (StatePartida.arma == 4)
+        {
+            print("scythe");
+            SpawnPrefab(scythe, arma1Posicion);
+            StatePartida.arma = 0;
+        }
+        else if (StatePartida.arma == 5)
+        {
+            print("scepter");
+            SpawnPrefab(scepter, arma1Posicion);
+            StatePartida.arma = 0;
+        }
+        else if (StatePartida.arma == 6)
+        {
+            print("dagger");
+            SpawnPrefab(dagger, arma1Posicion);
+            StatePartida.arma = 0;
+        }
+        else if (StatePartida.arma == 7)
+        {
+            print("swordfish");
+            SpawnPrefab(swordfish, arma1Posicion);
+            StatePartida.arma = 0;
+        }
+
         if (StatePartida.arma2 == 1)
         {
             print("Dragon slayer2");
             SpawnPrefab(dragonSlayer, arma2Posicion);
             StatePartida.arma2 = 0;
+            InfoPartida.tiempoInicio = Time.time;
         }
+        else if (StatePartida.arma2 == 2)
+        {
+            print("frostmourne");
+            SpawnPrefab(frostmourne, arma1Posicion);
+            StatePartida.arma2 = 0;
+            InfoPartida.tiempoInicio = Time.time;
+        }
+        else if (StatePartida.arma2 == 3)
+        {
+            print("axe");
+            SpawnPrefab(axe, arma1Posicion);
+            StatePartida.arma2 = 0;
+            InfoPartida.tiempoInicio = Time.time;
+        }
+        else if (StatePartida.arma2 == 4)
+        {
+            print("scythe");
+            SpawnPrefab(scythe, arma1Posicion);
+            StatePartida.arma2 = 0;
+            InfoPartida.tiempoInicio = Time.time;
+        }
+        else if (StatePartida.arma2 == 5)
+        {
+            print("scepter");
+            SpawnPrefab(scepter, arma1Posicion);
+            StatePartida.arma2 = 0;
+            InfoPartida.tiempoInicio = Time.time;
+        }
+        else if (StatePartida.arma2 == 6)
+        {
+            print("dagger");
+            SpawnPrefab(dagger, arma1Posicion);
+            StatePartida.arma2 = 0;
+            InfoPartida.tiempoInicio = Time.time;
+        }
+        else if (StatePartida.arma2 == 7)
+        {
+            print("swordfish");
+            SpawnPrefab(swordfish, arma1Posicion);
+            StatePartida.arma2 = 0;
+            InfoPartida.tiempoInicio = Time.time;
+        }
+
         if (StatePartida.victoria != 0)
         {
+            InfoPartida.tiempoFinal = Time.time;
+            StatePartida.partidas++;
+            StatePartida.partidas2++;
+            if(StatePartida.victoria == 1)
+            {
+                StatePartida.victorias++;
+            }
+            else if(StatePartida.victoria == 2)
+            {
+                StatePartida.victorias2++;
+            }
+            
+            
             GoBack();
         }
     }

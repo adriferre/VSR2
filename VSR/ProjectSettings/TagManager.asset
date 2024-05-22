@@ -7,6 +7,10 @@ TagManager:
   - escudo
   - arma
   - Anchor
+  - cuerpo
+  - cabeza
+  - host
+  - invitado
   layers:
   - Default
   - TransparentFX
