@@ -7,6 +7,7 @@ public class GameController : MonoBehaviour
 {
 
     public string modeServidor;
+    public GameObject jugadorPrefab;
     public Transform arma1Posicion;
     public Transform arma2Posicion;
     public Transform Player1Posicion;
@@ -14,20 +15,31 @@ public class GameController : MonoBehaviour
     public NetworkConnect networkManager;
     public Transform posicionJugador1;
     public GameObject dragonSlayer;
+    public GameObject IAEnemigo;
     bool victoria = false;
     // Start is called before the first frame update
     void Start()
     {
         modeServidor = StateNameController.servidor;
-        if (modeServidor.Equals("Host"))
+        if (!StatePartida.partida.Equals("IA"))
         {
-           
-            networkManager.Create();
-        } else if (modeServidor.Equals("Client"))
-        {
+            if (modeServidor.Equals("Host"))
+            {
 
-            networkManager.Join();
+                networkManager.Create();
+            }
+            else if (modeServidor.Equals("Client"))
+            {
+
+                networkManager.Join();
+            }
+        } else
+        {
+            //Spawnear enemigo
+            SpawnPrefab(jugadorPrefab, Player1Posicion);
+            //SpawnPrefab(IAEnemigo, Player2Posicion);
         }
+        
     }
 
     // Update is called once per frame

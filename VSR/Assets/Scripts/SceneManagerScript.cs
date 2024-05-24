@@ -22,4 +22,15 @@ public class SceneManagerScript : MonoBehaviour
         StateNameController.servidor = "Client";
         SceneManager.LoadSceneAsync(sceneName);
     }
+
+    public void PartidaIA(string sceneName)
+    {
+        StatePartida.partida = "IA";
+        SceneManager.LoadSceneAsync(sceneName);
+    }
+
+    public void UIRegistro()
+    {
+
+    }
 }
