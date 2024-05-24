@@ -11,7 +11,23 @@ public class HealthBar : MonoBehaviour
 	public Gradient gradient;
 	public Image fill;
     public GameObject player;
+    public Transform can;
 
+    public void Update()
+    {
+        if(StatePartida.victoria != 0)
+        {
+            if (can.CompareTag("host"))
+            {
+                StatePartida.puntuacion_maxima2 += slider.value;
+            }
+            else if (can.CompareTag("invitado"))
+            {
+                StatePartida.puntuacion_maxima += slider.value;
+            }
+            SceneManager.LoadSceneAsync("SalaEspera");
+        }
+    }
     public void SetMaxHealth(int health)
 	{
 		slider.maxValue = health;
@@ -30,8 +46,19 @@ public class HealthBar : MonoBehaviour
         {
             if (player.CompareTag("Player"))
             {
+                
+                if (can.CompareTag("host"))
+                {
+                    StatePartida.victorias2++;
+                    StatePartida.victoria = 2;
+                }
+                else if (can.CompareTag("invitado"))
+                {
+                    StatePartida.victorias++;
+                    StatePartida.victoria = 1;
+                }
                 SceneManager.LoadSceneAsync("SalaEspera");
-                StatePartida.victoria = 1;
+                //GameController.contadorActivo = false;
             }
             else
             {
