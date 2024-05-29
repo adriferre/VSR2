@@ -8,9 +8,7 @@ public class StatePartida : MonoBehaviour
     public static int arma;
     public static int arma2;
     public static int victoria;
-<<<<<<< HEAD
     public static string partida;
-=======
     public static String nombre;
     public static String nombre2;
     public static String correo;
@@ -25,5 +23,4 @@ public class StatePartida : MonoBehaviour
     public static int cuerpo2;
     public static int cabeza;
     public static int cabeza2;
->>>>>>> 17c5df7c451bdd55ddb89daad28a8a58dd429731
 }

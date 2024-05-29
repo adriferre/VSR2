@@ -14,12 +14,8 @@ public class GameController : MonoBehaviour
     public Transform Player2Posicion;
     public NetworkConnect networkManager;
     public Transform posicionJugador1;
-<<<<<<< HEAD
-    public GameObject dragonSlayer;
-    public GameObject IAEnemigo;
-=======
     public GameObject dragonSlayer, frostmourne, axe, scythe, scepter, dagger, swordfish;
->>>>>>> 17c5df7c451bdd55ddb89daad28a8a58dd429731
+    public GameObject IAEnemigo;
     bool victoria = false;
     // Start is called before the first frame update
     void Start()
@@ -27,6 +23,7 @@ public class GameController : MonoBehaviour
         modeServidor = StateNameController.servidor;
         if (!StatePartida.partida.Equals("IA"))
         {
+            IAEnemigo.SetActive(false);
             if (modeServidor.Equals("Host"))
             {
 

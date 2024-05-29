@@ -24,6 +24,12 @@ public class Daño : MonoBehaviour
                 else if (can.CompareTag("invitado"))
                 {
                     StatePartida.cabeza++;
+                } else if (can.CompareTag("IA"))
+                {
+                    StatePartida.cabeza2++;
+                } else if (can.CompareTag("Player"))
+                {
+                    StatePartida.cabeza++;
                 }
             }
             else if (objeto.CompareTag("cuerpo"))
@@ -36,6 +42,13 @@ public class Daño : MonoBehaviour
                 else if (can.CompareTag("invitado"))
                 {
                     StatePartida.cuerpo++;
+                } else if (can.CompareTag("IA"))
+                {
+                    StatePartida.cuerpo2++;
+                }
+                else if (can.CompareTag("Player"))
+                {
+                    StatePartida.cabeza++;
                 }
             }
 
@@ -61,6 +74,14 @@ public class Daño : MonoBehaviour
                 {
                     StatePartida.cabeza++;
                 }
+                else if (can.CompareTag("IA"))
+                {
+                    StatePartida.cuerpo2++;
+                }
+                else if (can.CompareTag("Player"))
+                {
+                    StatePartida.cabeza++;
+                }
             }
             else if (objeto.CompareTag("cuerpo"))
             {
@@ -72,6 +93,14 @@ public class Daño : MonoBehaviour
                 else if (can.CompareTag("invitado"))
                 {
                     StatePartida.cuerpo++;
+                }
+                else if (can.CompareTag("IA"))
+                {
+                    StatePartida.cuerpo2++;
+                }
+                else if (can.CompareTag("Player"))
+                {
+                    StatePartida.cabeza++;
                 }
             }
 

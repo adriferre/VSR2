@@ -6,7 +6,9 @@ public class GuardBT : Tree
     public UnityEngine.Transform[] waypoints;
 
     public static float speed = 2f;
-    public static float fovRange = 6f;
+    public static float fovRange = 20f;
+    public static float visionRange = 40f;
+    public static float visionAngle = 80f;
     public static float attackRange = 1f;
 
     protected override Node SetupTree()

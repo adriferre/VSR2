@@ -12436,13 +12436,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4774286743474268689, guid: 2553dde35c7d91e49903a1374ed23bd3, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7365527756120145177, guid: 2553dde35c7d91e49903a1374ed23bd3, type: 3}
       propertyPath: m_Name
       value: Dragon Slayer
-      objectReference: {fileID: 0}
-    - target: {fileID: 7365527756120145177, guid: 2553dde35c7d91e49903a1374ed23bd3, type: 3}
-      propertyPath: m_TagString
-      value: arma
       objectReference: {fileID: 0}
     - target: {fileID: 7889265124226262947, guid: 2553dde35c7d91e49903a1374ed23bd3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14853,7 +14853,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8273457355468355811, guid: 632a9c6fdf01667499656adf9a867613, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 44.7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8273457355468355811, guid: 632a9c6fdf01667499656adf9a867613, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -14881,7 +14881,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8505776169523718188, guid: 632a9c6fdf01667499656adf9a867613, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 44.7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8505776169523718188, guid: 632a9c6fdf01667499656adf9a867613, type: 3}
       propertyPath: m_AnchoredPosition.y

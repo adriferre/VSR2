@@ -4,22 +4,20 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - escudo
   - arma
-  - Anchor
-<<<<<<< HEAD
-  - target
-=======
   - cuerpo
   - cabeza
-  - host
+  - escudo
+  - target
+  - Anchor
+  - IA
   - invitado
->>>>>>> 17c5df7c451bdd55ddb89daad28a8a58dd429731
+  - host
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Enemy
+  - Jugador
   - Water
   - UI
   - 
