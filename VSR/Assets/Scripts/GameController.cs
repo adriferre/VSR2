@@ -21,8 +21,6 @@ public class GameController : MonoBehaviour
     void Start()
     {
         modeServidor = StateNameController.servidor;
-        StatePartida.partida = "Prueba";
-        modeServidor = "Prueba";
         if (!StatePartida.partida.Equals("IA"))
         {
             IAEnemigo.SetActive(false);
