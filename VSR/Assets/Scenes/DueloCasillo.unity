@@ -4742,12 +4742,12 @@ MonoBehaviour:
   networkManager: {fileID: 1054421842}
   posicionJugador1: {fileID: 1012554576}
   dragonSlayer: {fileID: 7365527756120145177, guid: 2553dde35c7d91e49903a1374ed23bd3, type: 3}
-  frostmourne: {fileID: 0}
-  axe: {fileID: 0}
-  scythe: {fileID: 0}
-  scepter: {fileID: 0}
-  dagger: {fileID: 0}
-  swordfish: {fileID: 0}
+  frostmourne: {fileID: 5858393628186778630, guid: 2ac0e6a35fe81144da299c57e53e266f, type: 3}
+  axe: {fileID: 1687304407797920889, guid: c7a2d1a27d004ff4a943d176832c1e5f, type: 3}
+  scythe: {fileID: 265320661438930711, guid: 1ba33895049475e47801f1214d422ee9, type: 3}
+  scepter: {fileID: 7067310193512459810, guid: 1949ed9f97fecab4f91cb2558c7f2187, type: 3}
+  dagger: {fileID: 7365527756120145177, guid: 2553dde35c7d91e49903a1374ed23bd3, type: 3}
+  swordfish: {fileID: 8319601439011117791, guid: 96668f4d3674b824abb795531c9cfeeb, type: 3}
   IAEnemigo: {fileID: 4617618309009664611, guid: 1d5edd7db14fb714ba6e58fc6c70cbbb, type: 3}
 --- !u!4 &1183953536
 Transform:
