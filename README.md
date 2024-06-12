@@ -18,7 +18,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[Contributors][contributors-url]
+[Colaboradores][contributors-url]
 [Forks][forks-url]
 [Stargazers][stars-url]
 [Issues][issues-url]
