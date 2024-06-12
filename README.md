@@ -29,7 +29,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/adriferre/VSR2">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -38,11 +38,11 @@
   <p align="center">
     Un juego multijugador VR para jugar contra tus amigos!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">Ver DEMO</a>
+    <a href="https://github.com/adriferre/VSR2">Ver DEMO</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Reportar Bug</a>
+    <a href="https://github.com/adriferre/VSR2/issues/new?labels=bug&template=bug-report---.md">Reportar Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Sugerir Mejora</a>
+    <a href="https://github.com/adriferre/VSR2/issues/new?labels=enhancement&template=feature-request---.md">Sugerir Mejora</a>
   </p>
 </div>
 
