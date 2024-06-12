@@ -20,9 +20,9 @@
 -->
 [Colaboradores][contributors-url]
 [Forks][forks-url]
-[Stargazers][stars-url]
-[Issues][issues-url]
-[MIT License][license-url]
+[Valoraciones][stars-url]
+[Errores][issues-url]
+[MIT Licencia][license-url]
 
 
 
